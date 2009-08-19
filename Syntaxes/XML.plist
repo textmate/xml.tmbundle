@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>fileTypes</key>
@@ -261,23 +261,8 @@
 			</array>
 		</dict>
 		<dict>
-			<key>captures</key>
-			<dict>
-				<key>1</key>
-				<dict>
-					<key>name</key>
-					<string>punctuation.definition.constant.xml</string>
-				</dict>
-				<key>3</key>
-				<dict>
-					<key>name</key>
-					<string>punctuation.definition.constant.xml</string>
-				</dict>
-			</dict>
-			<key>match</key>
-			<string>(&amp;)([a-zA-Z0-9_-]+|#[0-9]+|#x[0-9a-fA-F]+)(;)</string>
-			<key>name</key>
-			<string>constant.character.entity.xml</string>
+			<key>include</key>
+			<string>#entity</string>
 		</dict>
 		<dict>
 			<key>match</key>
@@ -400,6 +385,33 @@
 			</dict>
 			<key>name</key>
 			<string>string.quoted.double.xml</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>#entity</string>
+				</dict>
+			</array>
+		</dict>
+		<key>entity</key>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.constant.xml</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.constant.xml</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>(&amp;)([:a-zA-Z_][:a-zA-Z0-9_.-]*|#[0-9]+|#x[0-9a-fA-F]+)(;)</string>
+			<key>name</key>
+			<string>constant.character.entity.xml</string>
 		</dict>
 		<key>singlequotedString</key>
 		<dict>
@@ -425,6 +437,13 @@
 			</dict>
 			<key>name</key>
 			<string>string.quoted.single.xml</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>#entity</string>
+				</dict>
+			</array>
 		</dict>
 		<key>tagStuff</key>
 		<dict>
