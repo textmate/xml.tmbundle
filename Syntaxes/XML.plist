@@ -265,10 +265,8 @@
 			<string>#entity</string>
 		</dict>
 		<dict>
-			<key>match</key>
-			<string>&amp;</string>
-			<key>name</key>
-			<string>invalid.illegal.bad-ampersand.xml</string>
+			<key>include</key>
+			<string>#bare-ampersand</string>
 		</dict>
 		<dict>
 			<key>begin</key>
@@ -361,6 +359,13 @@
 	</array>
 	<key>repository</key>
 	<dict>
+		<key>bare-ampersand</key>
+		<dict>
+			<key>match</key>
+			<string>&amp;</string>
+			<key>name</key>
+			<string>invalid.illegal.bad-ampersand.xml</string>
+		</dict>
 		<key>doublequotedString</key>
 		<dict>
 			<key>begin</key>
@@ -390,6 +395,10 @@
 				<dict>
 					<key>include</key>
 					<string>#entity</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#bare-ampersand</string>
 				</dict>
 			</array>
 		</dict>
@@ -442,6 +451,10 @@
 				<dict>
 					<key>include</key>
 					<string>#entity</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#bare-ampersand</string>
 				</dict>
 			</array>
 		</dict>
