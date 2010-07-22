@@ -555,7 +555,7 @@
 						</dict>
 					</dict>
 					<key>match</key>
-					<string> (?:([-_a-zA-Z0-9]+)((:)))?([_a-zA-Z-]+)=</string>
+					<string> (?:([-_a-zA-Z0-9]+)((:)))?([-_a-zA-Z0-9]+)=</string>
 				</dict>
 				<dict>
 					<key>include</key>
