@@ -70,12 +70,12 @@
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.doctype.xml</string>
+					<string>keyword.other.doctype.xml</string>
 				</dict>
 				<key>3</key>
 				<dict>
 					<key>name</key>
-					<string>variable.documentroot.xml</string>
+					<string>variable.language.documentroot.xml</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -343,7 +343,7 @@
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.entity.xml</string>
+					<string>keyword.other.entity.xml</string>
 				</dict>
 				<key>3</key>
 				<dict>
@@ -353,12 +353,12 @@
 				<key>4</key>
 				<dict>
 					<key>name</key>
-					<string>variable.entity.xml</string>
+					<string>variable.language.entity.xml</string>
 				</dict>
 				<key>5</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.entitytype.xml</string>
+					<string>keyword.other.entitytype.xml</string>
 				</dict>
 			</dict>
 			<key>end</key>
