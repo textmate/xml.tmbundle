@@ -13,10 +13,6 @@
 		<string>rss</string>
 		<string>opml</string>
 	</array>
-	<key>foldingStartMarker</key>
-	<string>^\s*(&lt;[^!?%/](?!.+?(/&gt;|&lt;/.+?&gt;))|&lt;[!%]--(?!.+?--%?&gt;)|&lt;%[!]?(?!.+?%&gt;))</string>
-	<key>foldingStopMarker</key>
-	<string>^\s*(&lt;/[^&gt;]+&gt;|[/%]&gt;|--&gt;)\s*$</string>
 	<key>keyEquivalent</key>
 	<string>^~X</string>
 	<key>name</key>
