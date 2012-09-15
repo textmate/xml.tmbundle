@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>name</key>
@@ -32,6 +32,8 @@
      */</string>
 		<key>decreaseIndentPattern</key>
 		<string>^\s*(&lt;/[^&gt;]+&gt;|--&gt;|--%&gt;)</string>
+		<key>disableIndentCorrections</key>
+		<false/>
 		<key>highlightPairs</key>
 		<array>
 			<array>
@@ -57,6 +59,8 @@
 		</array>
 		<key>increaseIndentPattern</key>
 		<string>^\s*&lt;(([^!/?]|%)(?!.+?([/%]&gt;|&lt;/.+?&gt;))|[%!]--\s*$)</string>
+		<key>indentOnPaste</key>
+		<string>default</string>
 	</dict>
 	<key>uuid</key>
 	<string>95788610-7E2E-45CE-9CCE-708FE0C90BF7</string>
