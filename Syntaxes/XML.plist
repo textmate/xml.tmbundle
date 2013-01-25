@@ -5,6 +5,7 @@
 	<key>fileTypes</key>
 	<array>
 		<string>xml</string>
+		<string>xsd</string>
 		<string>tld</string>
 		<string>jsp</string>
 		<string>pt</string>
