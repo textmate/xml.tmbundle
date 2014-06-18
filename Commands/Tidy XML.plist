@@ -6,7 +6,7 @@
 	<string>nop</string>
 	<key>command</key>
 	<string>if [[ "$TM_SOFT_TABS" = "YES" ]];
-	then export XMLLINT_INDENT=`/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/bin/ruby -e"print(' ' * ${TM_TAB_SIZE})"`
+	then export XMLLINT_INDENT=`ruby18 -e"print(' ' * ${TM_TAB_SIZE})"`
 	else export XMLLINT_INDENT=$'\t'
 fi
 result=`xmllint --format - 2&gt;&amp;1`
