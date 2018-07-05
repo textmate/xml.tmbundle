@@ -71,12 +71,12 @@
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.other.doctype.xml</string>
+					<string>entity.name.tag.xml</string>
 				</dict>
 				<key>3</key>
 				<dict>
 					<key>name</key>
-					<string>variable.language.documentroot.xml</string>
+					<string>entity.other.attribute-name.documentroot.xml</string>
 				</dict>
 			</dict>
 			<key>end</key>
